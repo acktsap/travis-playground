@@ -12,4 +12,6 @@ done
 SCRIPT_HOME="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
 
 echo "installing.."
+
+echo "docker status"
 docker ps -a
