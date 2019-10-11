@@ -1,0 +1,27 @@
+language: java
+
+env:
+  global:
+    - GLOBAL_VAL="global val"
+
+before_install:
+  - echo "preparing for installing"
+  - echo "$GLOBAL_VAL"
+
+install:
+  - ./scripts/install-script.sh
+
+before_script:
+  - echo "preparing for script"
+
+script:
+  - ./scripts/build-script.sh"
+
+after_success:
+  - echo "build success!!"
+
+after_failure:
+  - echo "build failure.."
+
+after_script:
+  - echo "after script"
