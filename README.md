@@ -11,5 +11,6 @@ ci, phase, job, build, stage, matrix
 
 Use install, script (with custom script) along with matrices\
 Use stage to speed up test (run in parallelly)\
-Validate before commit it
+Validate before commit it using `travis-lint`\
+Make sure script permission (must be executable)
 
