@@ -10,7 +10,6 @@ before_install:
 
 install:
   - ./scripts/install-script.sh
-  - ./scripts/install-docker.sh
 
 before_script:
   - echo "preparing for script"

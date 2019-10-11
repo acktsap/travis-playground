@@ -12,3 +12,4 @@ done
 SCRIPT_HOME="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
 
 echo "installing.."
+docker ps -a
