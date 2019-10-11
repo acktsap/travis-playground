@@ -11,4 +11,8 @@ while [ -h "$SOURCE" ]; do
 done
 SCRIPT_HOME="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
 
-echo "building.."
+echo "Installing docker..."
+
+sudo curl -fsSL https://get.docker.com/
+
+docker ps

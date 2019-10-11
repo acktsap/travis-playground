@@ -1,5 +1,7 @@
 # travis-playground
 
+[![Build Status](https://travis-ci.com/acktsap/travis-playground.svg?token=C2YSnCVsgmivMDuqZgK9&branch=master)](https://travis-ci.com/acktsap/travis-playground)
+
 ci, phase, job, build, stage, matrix
 
 - [getting-started](https://docs.travis-ci.com/user/for-beginners/)
@@ -9,8 +11,10 @@ ci, phase, job, build, stage, matrix
 
 ## Opinion
 
-Use install, script (with custom script) along with matrices\
-Use stage to speed up test (run in parallelly)\
-Validate before commit it using `travis-lint`\
-Make sure script permission (must be executable)
+Use install, script (with custom script) along with matrices
 
+Use stage to speed up test (run in parallelly)
+
+Validate before commit it using `travis-lint`
+
+Make sure script permission (must be executable)
