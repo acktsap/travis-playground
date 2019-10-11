@@ -2,7 +2,7 @@ language: java
 
 env:
   global:
-    - GLOBAL_VAL="global val"
+    - GLOBAL_VAL="hello"
 
 before_install:
   - echo "preparing for installing"
