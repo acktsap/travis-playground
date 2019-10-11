@@ -15,7 +15,7 @@ before_script:
   - echo "preparing for script"
 
 script:
-  - ./scripts/build-script.sh"
+  - ./scripts/build-script.sh
 
 after_success:
   - echo "build success!!"
