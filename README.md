@@ -1,4 +1,4 @@
-# travis-playground
+# Travis Template
 
 [![Build Status](https://travis-ci.com/acktsap/travis-playground.svg?token=C2YSnCVsgmivMDuqZgK9&branch=master)](https://travis-ci.com/acktsap/travis-playground)
 
